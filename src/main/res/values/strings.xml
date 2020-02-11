@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TodoApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Ryne Whitaker</string>
+    <string name="nav_header_subtitle">rynewhitaker@pm.me</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_day">Day</string>
+    <string name="menu_week">Week</string>
+    <string name="menu_projects">Projects</string>
+    <string name="menu_labels">Labels</string>
+    <string name="menu_priority">Priority</string>
+    <string name="menu_settings">Settings</string>
+</resources>

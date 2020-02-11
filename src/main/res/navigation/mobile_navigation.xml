@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_day">
+
+    <fragment
+        android:id="@+id/nav_day"
+        android:name="com.rynewhitaker.todoapp.ui.home.HomeFragment"
+        android:label="@string/menu_day"
+        tools:layout="@layout/fragment_day" />
+
+    <fragment
+        android:id="@+id/nav_week"
+        android:name="com.rynewhitaker.todoapp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_week"
+        tools:layout="@layout/fragment_week" />
+
+    <fragment
+        android:id="@+id/nav_projects"
+        android:name="com.rynewhitaker.todoapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_projects"
+        tools:layout="@layout/fragment_projects" />
+
+    <fragment
+        android:id="@+id/nav_labels"
+        android:name="com.rynewhitaker.todoapp.ui.tools.ToolsFragment"
+        android:label="@string/menu_labels"
+        tools:layout="@layout/fragment_labels" />
+
+    <fragment
+        android:id="@+id/nav_priority"
+        android:name="com.rynewhitaker.todoapp.ui.share.ShareFragment"
+        android:label="@string/menu_priority"
+        tools:layout="@layout/fragment_priority" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.rynewhitaker.todoapp.ui.send.SendFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

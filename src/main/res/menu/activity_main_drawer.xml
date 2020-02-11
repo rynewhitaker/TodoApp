@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_day"
+            android:icon="@drawable/ic_calendar_view_day_24px"
+            android:title="@string/menu_day" />
+        <item
+            android:id="@+id/nav_week"
+            android:icon="@drawable/ic_calendar_today_24px"
+            android:title="@string/menu_week" />
+        <item
+            android:id="@+id/nav_projects"
+            android:icon="@drawable/ic_assignment_24px"
+            android:title="@string/menu_projects" />
+        <item
+            android:id="@+id/nav_labels"
+            android:icon="@drawable/ic_label_24px"
+            android:title="@string/menu_labels" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_priority"
+                android:icon="@drawable/ic_priority_high_24px"
+                android:title="@string/menu_priority" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_24px"
+                android:title="@string/menu_settings" />
+        </menu>
+    </item>
+
+</menu>
